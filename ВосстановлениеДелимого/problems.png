@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="charset=utf-8" />
+                <title>Система проверки задач - Q-BIT</title>
+        <meta content=" Система проверки задач, Молодёжное научное общество Q-BIT, г. Харьков" name="description" />
+        <link rel="stylesheet" href="/screen.css" type="text/css" media="all" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/msie.css" type="text/css" media="all" />
+    <![endif]-->
+    <link rel="SHORTCUT ICON" href="/favicon.ico" />
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <table border="0"><tbody><tr><td>
+        <a href="/" title="Q-BIT"><img src="/images/qbit.gif" width="100" height="95" border="0" alt="LOGO" /></a></td>
+                <td><h1>Молодёжное научное общество Q-BIT, г. Харьков</h1><h2>
+                                                 Практикум по программированию (&#0171;DOTS&#0187;
+                        v1.5<img alt="b" src="/images/b.gif" style="margin-bottom:-4px;"/>)</h2>
+                    </h2></td>
+						</tr>
+            </tbody></table>
+    </div>
+
+<!-- UPDATE LOC -->
+<script>
+function changeLang(lang) {
+document.cookie = "lang=" + lang;
+location.reload();
+}
+</script>
+<center><a onclick="changeLang('ru');"><img src="images/flag_ru.png"></a>&nbsp&nbsp&nbsp<a onclick="changeLang('ua');"><img src="images/flag_ua.png"</a></center>
+
+    <div id="wrapper">
+        <div id="nav">
+            <ul>
+                
+                
+                                <br/>
+
+                <li><a title="Памятка" href="documents/instruction.pdf">Памятка</a></li>
+                
+                
+                <li>&nbsp;</li>
+
+                
+                                    <li><a title="Войти в систему" href="login">Войти</a></li>
+                            </ul>
+
+            
+            
+                        <ul>
+                <li><a title="DOTS" href="http://dots.org.ua/">DOTS</a></li>
+                <li><a title="QBIT" href="http://qbit.org.ua/">QBIT</a></li>
+            </ul>
+        </div>
+        <div id="extra">
+            <p>&nbsp;</p>
+        </div>
+        <div id="content">
+            <!-- CONTENT_BEGIN -->
+<!--
+	<div id="olymp">
+                <p><font color="red"><b>Предлагаем начинать готовиться к сезону олимпиад 2019-2020!</b></font>
+                <p align="justify"><b>28 января 2019</b> на <a href="https://labs.dots.org.ua" target="blank">labs.dots.org.ua</a> 
+                   стартует курс "Олимпиадное программирование". Будем учиться решать сложные и интересные задачи, 
+                   изучать алгоритмы и структуры данных. </p>
+          </div> 
+          <br/>
+-->
+
+
+            <h1>ПРЕДСТАВЬТЕСЬ</h1>
+
+                        <div class="warning"><p><b>Внимание:</b> У Вас недостаточно прав для доступа к этой странице.</p></div>
+                                    <p>&nbsp;</p>
+            <form id="loginform" action="login" method="post" style="width: 400px; float: left;">
+                <input type="hidden" name="from" value="/problems?img=1&att=1041" />
+                <table id="loginformtable">
+                    <tbody>
+                        <tr>
+                            <td><span class="ft">Логин:</span></td>
+                            <td><input type="text" name="username" tabindex="1" value="" size="20" maxlength="60" class="e" style="width:150px" /></td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td><span class="ft">Пароль:</span></td>
+                            <td><input type="password" name="password" tabindex="2" value="" size="20" maxlength="60" class="e" style="width:150px" /></td>
+                            <td>&nbsp;<a href="restore" class="fh">Забыли пароль?</a></td>
+                        </tr>
+                        <tr>
+                            <td><span class="ft">&nbsp;</span></td>
+                            <td><input type="checkbox" id="remember_me" name="remember_me" tabindex="3" value="1209600" class="e cb"/><label for="remember_me"> Запомнить вход</label></td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;<input type="hidden" name="token" value="TNyeO5vBsmDlyieb"></td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td><input type="submit" class="b" tabindex="4" value="Войти" /></td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+          <p>&nbsp;</p>
+           <p>&nbsp;</p>
+
+
+        <!-- CONTENT_END -->
+
+        </div>
+        <div id="footer">
+
+      <p>
+      <br/>
+      <br/>
+      <br/>
+      <table align="center">
+<!--
+         <tr>
+                <u><h3><font color="blue">ПРОЕКТ ПОДДЕРЖИВАЕТ КОМПАНИЯ NIX SOLUTIONS</font></h3></u>
+         </tr>
+         <tr>
+           <td><a href="https://www.nixsolutions.com/ru/study-center/courses/" target="blank"><img src="/images/nix_l.png" width="400"></a></td>
+           <td><a href="https://www.nixsolutions.com/ru/cooperation/vacancies/" target="blank"><img src="/images/nix_r.png" width="400"></a></td>
+         </tr>
+-->
+         <tr>
+         </tr>
+         <tr>
+           <td>
+                <u><h3><font color="blue">ПРОЕКТ ПОДДЕРЖИВАЕТ КОМПАНИЯ</font></h3></u>
+           </td>
+            <td><p>&nbsp;</p></td>
+            <td><p>&nbsp;</p></td>
+            <td><p>&nbsp;</p></td>
+            <td><p>&nbsp;</p></td>
+           <td>
+                <u><h3><font color="blue">ПРОЕКТ ПОДДЕРЖИВАЕТ КОМПАНИЯ</font></h3></u>
+           </td>
+         </tr>
+         <tr>
+           <td>
+                <a href="http://insart.com" target="blank"><img src="/images/insart.png" width="245"></a> <br />
+           </td>
+            <td><p>&nbsp;</p></td>
+            <td><p>&nbsp;</p></td>
+            <td><p>&nbsp;</p></td>
+            <td><p>&nbsp;</p></td>
+           <td>
+               <a href="http://weare.net.ua" target="blank"><img src="/images/wearenet.png" width="200"></a> <br />
+           </td>
+         </tr>
+      </table>
+
+           <p>&nbsp;</p>
+            
+            <p>Страница создана за 0.012 с. 
+                Время на сервере: Fri, 13 Nov 2020 14:22:54 +0200                GZip включён.</p>
+            <p><b>Copyright &copy; 2005-2020, Молодёжное научное общество "Q-BIT";</b> <br/>
+                тех. поддержка: Н.А. Арзубов <br />
+            При использовании материалов сайта ссылка на <a href="http://www.qbit.org.ua/">QBit.org.ua</a> обязательна.</p>
+            <p>&nbsp;</p>
+
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" href="/jquery.datetimepicker.css" type="text/css" media="all" />
+
+<script type="text/javascript" src="jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="jquery.datetimepicker.full.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+<!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-108903548-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+
+
+</body>
+</html>
